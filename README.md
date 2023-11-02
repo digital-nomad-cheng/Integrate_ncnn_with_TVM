@@ -13,7 +13,7 @@ The implementation is based on TVM v0.13.0.
   - [ ] nn.depthwise_conv2d
   - [ ] ...
 - [x] Reduce memory traffic by allocating input and output tensor at initializing engine time instead of per run. Increase the speed by 20% for AlexNet. 5/Oct
-- [ ] Set thread number based on hardware
+- [x] Set thread number based on hardware
 - [ ] Fallback to layout packing
 - [ ] Support dispath subgraph instead of per layer
 - [ ] Reduce memory traffic when copying weights and tensors from tvm to ncnn, perhaps using tvm as ncnn::Mat's allocator
